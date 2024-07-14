@@ -22,15 +22,13 @@ jobs:
       run: |
         pip3 install pyYAML requests tqdm
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Collect proxies
-      run: |
-        python -u subscribe/collect.py -b -d 500 -o -s
+
     - name: Configure Git
       run: |
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
     - name: Commit and push changes
       run: |
-        git add ./data
+        git add .
         git commit -m "Add generated output.yaml"
         git push -f
