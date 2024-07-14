@@ -33,4 +33,4 @@ jobs:
       run: |
         git add ./data
         git commit -m "Add generated output.yaml"
-        git push
+        git push -f
