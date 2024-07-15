@@ -276,3 +276,5 @@ http://msvpn.gougouvpn.xyz:88
 https://bbjc.xyz	@#@#	@bbjc52
 https://app.cloudlion.me	@#@#	@jiso_chat
 https://freeair.colacloud.free.hr	@#@#	999
+https://laomaoyun.me/
+https://www.huaxia.cyou
