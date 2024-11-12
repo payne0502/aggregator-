@@ -405,7 +405,7 @@ https://sub.ssrsub.com/
 https://sub.ssrsub.com	@#@#	遥遥领先
 https://a.kepayun.tech
 https://b.kepayun.tech
-https://4.ni8.pro	@#@#	lanren
+https://4.ni8.pro
 https://ddddd.site/
 https://58sd.net/
 https://1.kepayun.tech
@@ -516,3 +516,5 @@ https://colacloud.net/
 https://www.lthuojie.top/
 https://www.xbyun.live/
 http://vyy.idsduf.com/
+https://yun.cat/
+https://yun.cat	@#@#	小猫
