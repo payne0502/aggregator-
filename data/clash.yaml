@@ -1,139 +1,133 @@
 proxies:
-  - {name: 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 台湾 IEPL专线NO1, server: i.needss.top, port: 52103, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾 IEPL专线NO3, server: i.needss.top, port: 20016, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 611dd4d6-b8bd-43ac-ace9-ba6ac956e110, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 61968503-92cc-4857-9af5-afba751d2567, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0193f523-25a2-4496-9821-6fa17754fb95, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cc26b0fd-ffbb-4256-9fc8-1643b3a1871c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 台湾稳定 96-1B, server: cmcc.youxuan.beauty, port: 2052, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yvubpbigtw09.hawjyh.beauty}}, udp: true}
-  - {name: 韩国-三网优化2-2I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9c7d9707-d972-4f46-bdc7-a9af61c6b166, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d3c209a8-d278-416f-b9c0-58ff3f7b5a2a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0fafb82d-c4fe-48f7-b16a-f0623ad16622, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73db414c-e14e-47b2-b816-783b58fc8235, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1d6f13d4-2c60-43ad-92d2-43c79d9a0755, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本03-1D, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae1b3ebf-5f40-42e7-a837-8befaae7f6d6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港 IEPL专线NO5, server: i.needss.top, port: 24771, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国 纽约01-1C, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾 1-1D, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 英国 IEPL专线NO1, server: sh3.needss.top, port: 54774, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 香港 IEPL专线NO1, server: i.needss.top, port: 20013, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本03-1C, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国-三网优化2-2H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6ac0ec8e-28b4-4c13-8930-994cdd5118ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bb5ca2de-2426-4a99-91ac-9ae618c2f3f1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 71aa19d9-9783-40b6-addd-dd8decd49f5e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 印尼 IEPL专线NO1, server: i.needss.top, port: 25129, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港01-1D, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ce6dc7b9-22ad-4b9e-8572-93f111567cae, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本 IEPL专线NO3, server: i.needss.top, port: 52117, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 新加坡 IEPL专线NO3, server: i.needss.top, port: 44412, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7fd17474-9991-466f-96d1-bcf5d918573c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港02-1D, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 日本01-1D, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 香港02-1C, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 台湾稳定 100-1B, server: ct.youxuan.beauty, port: 8080, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cdnalibabatw11.goodwjyy.monster}}, udp: true}
-  - {name: 台湾01-1D, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 直连不能用是地区问题-1B, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 9a1f93a9-3d33-47a2-b7df-4f51722bc616, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
-  - {name: 美国 纽约01-1D, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 韩国-三网优化2-2J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3119c3c1-080e-4011-b026-2ddaf5484948, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4c25096-6092-4431-896b-3c98abbb75dc, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港NO.1, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾稳定 96-1A, server: cmcc.youxuan.beauty, port: 2052, type: vmess, uuid: 95fca57d-7478-4e74-9654-e1af3c7d4a34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yvubpbigtw09.hawjyh.beauty}}, udp: true}
-  - {name: 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 303d5e2a-cd63-4d4f-8689-a410c9c085aa, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 非洲 IEPL专线 NO1, server: i.needss.top, port: 44410, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3bf4fb78-07c4-4130-93b0-8a6f8ccf70e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 意大利 IEPL专线NO1, server: i.needss.top, port: 33322, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-2K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 81eb4f10-0645-4f74-9a26-e8f51f2e4c1b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国 纽约2-1D, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 台湾稳定 98-1B, server: cmcc.youxuan.beauty, port: 8880, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: txboifbrtw11.hawjyh.beauty}}, udp: true}
-  - {name: 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e7c9e591-140b-4d49-af29-32baa4a9d4cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本02-1C, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 德国 IEPL专线NO1, server: sh3.needss.top, port: 54787, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 17952870-e17a-46b2-8106-5cc009a9df65, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 401409ce-27a5-465d-bae4-1b94148c46cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 日本02-1D, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 韩国-三网优化2-2M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0973fd53-9ebd-488e-a813-3dca3a3d8259, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾稳定 98-1A, server: cmcc.youxuan.beauty, port: 8880, type: vmess, uuid: 95fca57d-7478-4e74-9654-e1af3c7d4a34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: txboifbrtw11.hawjyh.beauty}}, udp: true}
-  - {name: 香港03-1D, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾稳定 99-1B, server: ct.youxuan.beauty, port: 80, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wjytw13.goodwjyy.monster}}, udp: true}
-  - {name: 台湾稳定 99-1A, server: ct.youxuan.beauty, port: 80, type: vmess, uuid: 95fca57d-7478-4e74-9654-e1af3c7d4a34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wjytw13.goodwjyy.monster}}, udp: true}
-  - {name: 荷兰 CM 隧道NO1, server: qd.needss.top, port: 20025, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 香港01-1C, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2fd9db50-5243-4833-b56d-0105f130b6b6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 新加坡1SS移动直连, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac1ee0f-7473-43f3-8f08-c65118a2b6c6, udp: true}
-  - {name: 台湾02-3x-流媒体, server: cf.hy2.one, port: 80, type: vmess, uuid: 720b296c-b817-4b88-a443-4e80bdc09eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /af323d, headers: {Host: tw02.hy2.one}}, udp: true}
-  - {name: 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f59a5888-183f-4d70-9aad-1dd066abe2d2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 58ff9ed2-c375-4c8a-9657-56d236fba21e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a68c2a7d-1909-40b7-a49f-8b5a8ea66669, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本04-1D, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
-  - {name: 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本01-1C, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本04-1C, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e29b418d-4509-4eb0-9c4c-2da7a2651159, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 19d1731b-ed1d-4e87-a039-d09307ddd74d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 台湾 1-1C, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾01-1C, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9c756454-d0d4-4812-8499-2047108382c1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 阿根廷 IEPL专线NO1, server: i.needss.top, port: 20014, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本 IEPL专线NO1, server: i.needss.top, port: 20017, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
+  - {name: 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港01-1C, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f59a5888-183f-4d70-9aad-1dd066abe2d2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港03-1D, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 19d1731b-ed1d-4e87-a039-d09307ddd74d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 澳门NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9c756454-d0d4-4812-8499-2047108382c1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 韩国-三网优化2-2G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 81eb4f10-0645-4f74-9a26-e8f51f2e4c1b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
   - {name: 免费 美国 02 | 洛杉矶 | X1 | 20M, server: us2.vpn.ong, port: 4438, type: trojan, password: 3d99308e-74b3-4b5e-b884-67b0736d5f2a, skip-cert-verify: false, udp: true}
-  - {name: 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 俄罗斯 IEPL专线NO1, server: i.needss.top, port: 21111, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 葡萄牙 IEPL专线NO1, server: i.needss.top, port: 31001, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 美国 IEPL专线NO1, server: i.needss.top, port: 54770, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 法国 CM 隧道NO1, server: sh3.needss.top, port: 52108, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f0180b24-cbb1-4478-a21c-9da80183ace5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 澳门NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 04f90829-1173-4be3-baa6-1769d1bf1452, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 直连不能用是地区问题-1A, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 88341c2d-6c87-44f2-a59f-e4e1552855f3, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
-  - {name: 新加坡02-V4-流媒体, server: cf.hy2.one, port: 2052, type: vmess, uuid: 720b296c-b817-4b88-a443-4e80bdc09eb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /0, headers: {Host: sg0002.hy-2.top}}, udp: true}
-  - {name: 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 美国 纽约2-1C, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
-  - {name: 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9477e90a-ca94-4a83-95dc-cdb0b75b2895, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a2292db7-7e9b-4652-9c44-24fa81a8c2cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-2G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 36956968-031b-4e17-9fc9-38008e274742, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 香港03-1C, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 台湾01-1D, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 香港02-1D, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f0180b24-cbb1-4478-a21c-9da80183ace5, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本 IEPL专线NO3, server: i.needss.top, port: 52117, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e23bb9c9-e70c-4a84-8aee-11b48915ea20, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
-  - {name: 美国5, server: yx.sulink.one, port: 80, type: vmess, uuid: 9ac1ee0f-7473-43f3-8f08-c65118a2b6c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us5.sulink.one}}, udp: true}
-  - {name: 韩国-三网优化2-2F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 89ef464a-1f43-40c7-8940-d1e7ba8b4b96, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 520ac1a7-488c-4a25-a403-b81ccbb66281, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
-  - {name: 加拿大 IEPL专线NO1, server: sz.needss.top, port: 20013, type: vmess, uuid: 7fd146cb-3069-459c-86ad-13987c1f2a0f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 台湾稳定 100-1A, server: ct.youxuan.beauty, port: 8080, type: vmess, uuid: 95fca57d-7478-4e74-9654-e1af3c7d4a34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cdnalibabatw11.goodwjyy.monster}}, udp: true}
-  - {name: 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 6c7732ac-45f6-4bab-a2d8-4a648581abaf, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 台湾 IEPL专线NO1, server: i.needss.top, port: 52103, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2fd9db50-5243-4833-b56d-0105f130b6b6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9c7d9707-d972-4f46-bdc7-a9af61c6b166, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae1b3ebf-5f40-42e7-a837-8befaae7f6d6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3bf4fb78-07c4-4130-93b0-8a6f8ccf70e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本04-1C, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f4c25096-6092-4431-896b-3c98abbb75dc, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 新加坡02-V4-流媒体, server: cf.hy2.one, port: 2052, type: vmess, uuid: 9088fbae-92cd-40de-b15d-bf73f578f802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /0, headers: {Host: sg0002.hy-2.top}}, udp: true}
+  - {name: 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 香港 IEPL专线NO5, server: i.needss.top, port: 24771, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾 1-1D, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 香港01-1D, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a68c2a7d-1909-40b7-a49f-8b5a8ea66669, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e7c9e591-140b-4d49-af29-32baa4a9d4cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 美国 IEPL专线NO1, server: i.needss.top, port: 54770, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6ac0ec8e-28b4-4c13-8930-994cdd5118ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 印尼 IEPL专线NO1, server: i.needss.top, port: 25129, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本04-1D, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73db414c-e14e-47b2-b816-783b58fc8235, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡 IEPL专线NO3, server: i.needss.top, port: 44412, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7fd17474-9991-466f-96d1-bcf5d918573c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾 IEPL专线NO3, server: i.needss.top, port: 20016, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾稳定 99-1A, server: ct.youxuan.beauty, port: 80, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wjytw13.goodwjyy.monster}}, udp: true}
+  - {name: 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3119c3c1-080e-4011-b026-2ddaf5484948, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾稳定 100-1B, server: ct.youxuan.beauty, port: 8080, type: vmess, uuid: aa35c17c-8e35-4af1-b4fc-f2f150675670, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cdnalibabatw11.goodwjyy.monster}}, udp: true}
+  - {name: 阿根廷 IEPL专线NO1, server: i.needss.top, port: 20014, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾01-1C, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 俄罗斯 IEPL专线NO1, server: i.needss.top, port: 21111, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本02-1C, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0973fd53-9ebd-488e-a813-3dca3a3d8259, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 台湾02-3x-流媒体, server: cf.hy2.one, port: 80, type: vmess, uuid: 9088fbae-92cd-40de-b15d-bf73f578f802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /af323d, headers: {Host: tw02.hy2.one}}, udp: true}
+  - {name: 台湾稳定 99-1B, server: ct.youxuan.beauty, port: 80, type: vmess, uuid: aa35c17c-8e35-4af1-b4fc-f2f150675670, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wjytw13.goodwjyy.monster}}, udp: true}
+  - {name: 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 61968503-92cc-4857-9af5-afba751d2567, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 401409ce-27a5-465d-bae4-1b94148c46cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 节点, server: hk.fuck-av.com, port: 443, type: vmess, uuid: ca5d44ce-1441-429f-b220-987e5feccf53, alterId: 0, cipher: auto, tls: true, servername: hk.fuck-av.com, network: ws, ws-opts: {path: /, headers: {Host: hk.fuck-av.com}}, udp: true}
+  - {name: 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 台湾稳定 100-1A, server: ct.youxuan.beauty, port: 8080, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cdnalibabatw11.goodwjyy.monster}}, udp: true}
+  - {name: 香港NO.1, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a2292db7-7e9b-4652-9c44-24fa81a8c2cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本03-1C, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bb5ca2de-2426-4a99-91ac-9ae618c2f3f1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0193f523-25a2-4496-9821-6fa17754fb95, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 36956968-031b-4e17-9fc9-38008e274742, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡1SS移动直连, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: c467d804-d1df-443f-a5c7-ea6067aa1bff, udp: true}
+  - {name: 葡萄牙 IEPL专线NO1, server: i.needss.top, port: 31001, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48de4f-d56a-49ed-abee-5c1c18ad220f, udp: true}
+  - {name: 美国 纽约01-1D, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-2L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 17952870-e17a-46b2-8106-5cc009a9df65, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e29b418d-4509-4eb0-9c4c-2da7a2651159, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 70c8644c-a668-423e-a5d3-f4b8517ab7e1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾稳定 98-1A, server: cmcc.youxuan.beauty, port: 8880, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: txboifbrtw11.hawjyh.beauty}}, udp: true}
+  - {name: 香港 IEPL专线NO1, server: i.needss.top, port: 20013, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾稳定 96-1A, server: cmcc.youxuan.beauty, port: 2052, type: vmess, uuid: 98bdf17c-570a-4111-9664-837a1ed930c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yvubpbigtw09.hawjyh.beauty}}, udp: true}
+  - {name: 韩国-三网优化2-2I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 611dd4d6-b8bd-43ac-ace9-ba6ac956e110, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 意大利 IEPL专线NO1, server: i.needss.top, port: 33322, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本 IEPL专线NO1, server: i.needss.top, port: 20017, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 美国 纽约01-1C, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 美国 纽约2-1D, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 71aa19d9-9783-40b6-addd-dd8decd49f5e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1d6f13d4-2c60-43ad-92d2-43c79d9a0755, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0fafb82d-c4fe-48f7-b16a-f0623ad16622, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾稳定 98-1B, server: cmcc.youxuan.beauty, port: 8880, type: vmess, uuid: aa35c17c-8e35-4af1-b4fc-f2f150675670, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: txboifbrtw11.hawjyh.beauty}}, udp: true}
+  - {name: 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 520ac1a7-488c-4a25-a403-b81ccbb66281, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9477e90a-ca94-4a83-95dc-cdb0b75b2895, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 美国5, server: yx.sulink.one, port: 80, type: vmess, uuid: c467d804-d1df-443f-a5c7-ea6067aa1bff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us5.sulink.one}}, udp: true}
+  - {name: 非洲 IEPL专线 NO1, server: i.needss.top, port: 44410, type: vmess, uuid: c734038a-bd30-4ead-be32-71ed771a4725, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 日本03-1D, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cc26b0fd-ffbb-4256-9fc8-1643b3a1871c, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本01-1D, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 美国 纽约2-1C, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 香港02-1C, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 台湾稳定 96-1B, server: cmcc.youxuan.beauty, port: 2052, type: vmess, uuid: aa35c17c-8e35-4af1-b4fc-f2f150675670, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yvubpbigtw09.hawjyh.beauty}}, udp: true}
+  - {name: 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 89ef464a-1f43-40c7-8940-d1e7ba8b4b96, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ce6dc7b9-22ad-4b9e-8572-93f111567cae, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 台湾 1-1C, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: b3b623c5-9257-44f6-af67-7038cd0ee85a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 58ff9ed2-c375-4c8a-9657-56d236fba21e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 303d5e2a-cd63-4d4f-8689-a410c9c085aa, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本02-1D, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 280333cb-0d8a-4d7c-97f2-67731629001d, udp: true}
+  - {name: 日本01-1C, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
+  - {name: 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 04f90829-1173-4be3-baa6-1769d1bf1452, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 5e3f1d01-74f5-4785-83e8-0fa1b8d54600, udp: true}
+  - {name: 香港03-1C, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 34c40b4d-fc6c-44ce-aa24-8201fec4920a, udp: true}
